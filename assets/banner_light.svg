@@ -2,16 +2,14 @@
   <defs>
     <!-- Background Gradient (Dark Mode) -->
     <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#10151D" />
-      <stop offset="50%" stop-color="#121923" />
-      <stop offset="100%" stop-color="#10151D" />
+      <stop offset="0%" stop-color="#0A0E13" />
+      <stop offset="100%" stop-color="#121B27" />
     </linearGradient>
 
     <!-- Background Gradient (Light Mode) -->
     <linearGradient id="bg-grad-light" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#F6F8FA" />
-      <stop offset="50%" stop-color="#EAEFF5" />
-      <stop offset="100%" stop-color="#F6F8FA" />
+      <stop offset="100%" stop-color="#EAEFF5" />
     </linearGradient>
 
     <!-- Horizontal Fade Left Gradient -->
@@ -164,89 +162,89 @@
     /* Role 0: "Cloud Engineer" */
     .role-0 {
       opacity: 0;
-      animation: roleVisibility-0 11.39s infinite;
+      animation: roleVisibility-0 16.32s infinite;
     }
     #clip-rect-0 {
-      animation: clipAnim-0 11.39s steps(14) infinite;
+      animation: clipAnim-0 16.32s steps(14) infinite;
     }
     .cursor-0 {
-      animation: cursorMove-0 11.39s steps(14) infinite, cursorBlink 0.7s infinite;
+      animation: cursorMove-0 16.32s steps(14) infinite, cursorBlink 0.7s infinite;
     }
 
     @keyframes roleVisibility-0 {
       0%, 0.00% { opacity: 0; }
-      0.01%, 27.57% { opacity: 1; }
-      27.58%, 100% { opacity: 0; }
+      0.01%, 30.76% { opacity: 1; }
+      30.77%, 100% { opacity: 0; }
     }
 
     @keyframes clipAnim-0 {
       0%, 0.00% { width: 0px; }
-      8.60%, 22.65% { width: 218.4px; }
-      27.57%, 100% { width: 0px; }
+      10.29%, 25.61% { width: 218.4px; }
+      30.76%, 100% { width: 0px; }
     }
 
     @keyframes cursorMove-0 {
       0%, 0.00% { transform: translateX(0px); }
-      8.60%, 22.65% { transform: translateX(218.4px); }
-      27.57%, 100% { transform: translateX(0px); }
+      10.29%, 25.61% { transform: translateX(218.4px); }
+      30.76%, 100% { transform: translateX(0px); }
     }
     /* Role 1: "DevOps Engineer" */
     .role-1 {
       opacity: 0;
-      animation: roleVisibility-1 11.39s infinite;
+      animation: roleVisibility-1 16.32s infinite;
     }
     #clip-rect-1 {
-      animation: clipAnim-1 11.39s steps(15) infinite;
+      animation: clipAnim-1 16.32s steps(15) infinite;
     }
     .cursor-1 {
-      animation: cursorMove-1 11.39s steps(15) infinite, cursorBlink 0.7s infinite;
+      animation: cursorMove-1 16.32s steps(15) infinite, cursorBlink 0.7s infinite;
     }
 
     @keyframes roleVisibility-1 {
-      0%, 31.08% { opacity: 0; }
-      31.09%, 59.61% { opacity: 1; }
-      59.62%, 100% { opacity: 0; }
+      0%, 30.76% { opacity: 0; }
+      30.77%, 62.62% { opacity: 1; }
+      62.63%, 100% { opacity: 0; }
     }
 
     @keyframes clipAnim-1 {
-      0%, 31.08% { width: 0px; }
-      40.30%, 54.35% { width: 234.0px; }
-      59.61%, 100% { width: 0px; }
+      0%, 30.76% { width: 0px; }
+      41.79%, 57.11% { width: 234.0px; }
+      62.62%, 100% { width: 0px; }
     }
 
     @keyframes cursorMove-1 {
-      0%, 31.08% { transform: translateX(0px); }
-      40.30%, 54.35% { transform: translateX(234.0px); }
-      59.61%, 100% { transform: translateX(0px); }
+      0%, 30.76% { transform: translateX(0px); }
+      41.79%, 57.11% { transform: translateX(234.0px); }
+      62.62%, 100% { transform: translateX(0px); }
     }
     /* Role 2: "System Administrator" */
     .role-2 {
       opacity: 0;
-      animation: roleVisibility-2 11.39s infinite;
+      animation: roleVisibility-2 16.32s infinite;
     }
     #clip-rect-2 {
-      animation: clipAnim-2 11.39s steps(20) infinite;
+      animation: clipAnim-2 16.32s steps(20) infinite;
     }
     .cursor-2 {
-      animation: cursorMove-2 11.39s steps(20) infinite, cursorBlink 0.7s infinite;
+      animation: cursorMove-2 16.32s steps(20) infinite, cursorBlink 0.7s infinite;
     }
 
     @keyframes roleVisibility-2 {
-      0%, 63.13% { opacity: 0; }
-      63.14%, 96.49% { opacity: 1; }
-      96.50%, 100% { opacity: 0; }
+      0%, 62.62% { opacity: 0; }
+      62.63%, 100.00% { opacity: 1; }
+      100.01%, 100% { opacity: 0; }
     }
 
     @keyframes clipAnim-2 {
-      0%, 63.13% { width: 0px; }
-      75.42%, 89.46% { width: 312.0px; }
-      96.49%, 100% { width: 0px; }
+      0%, 62.62% { width: 0px; }
+      77.33%, 92.65% { width: 312.0px; }
+      100.00%, 100% { width: 0px; }
     }
 
     @keyframes cursorMove-2 {
-      0%, 63.13% { transform: translateX(0px); }
-      75.42%, 89.46% { transform: translateX(312.0px); }
-      96.49%, 100% { transform: translateX(0px); }
+      0%, 62.62% { transform: translateX(0px); }
+      77.33%, 92.65% { transform: translateX(312.0px); }
+      100.00%, 100% { transform: translateX(0px); }
     }
     @keyframes cursorBlink {
       0%, 100% { opacity: 1; }

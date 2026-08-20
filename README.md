@@ -20,6 +20,6 @@
 
 
 - 👋 Hi, I’m An Huynh Phuoc | You can call me **bean** :D.
-- 👀 I'm a 3rd-year student at the University of Information Technology - VNUHCM, majoring in Computer Networks and Data Communications. 
+- 👀 I'm a junior at the University of Information Technology - VNUHCM, majoring in Computer Networks and Data Communications. 
 - 💡 I’m interested in DevOps, MLOps, Cloud Computing, and System Administration.
 - 📫 How to reach me: [phuocan803@gmail.com](mailto:phuocan803@gmail.com)
